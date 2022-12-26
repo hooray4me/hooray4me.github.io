@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hooray4me.github.io/blog</id>
-    <title>Documentation Blog</title>
+    <title>wiki Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hooray4me.github.io/blog"/>
-    <subtitle>Documentation Blog</subtitle>
+    <subtitle>wiki Blog</subtitle>
     <icon>https://hooray4me.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
