@@ -7,8 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'wiki',
-  tagline: 'Bears are Fast',
+  title: 'Documentation',
+  tagline: 'demo documentation site',
   url: `https://${organizationName}.github.io`,
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -36,12 +36,14 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             `https://github.com/${organizationName}/${projectName}/tree/master/`,
         },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -56,18 +58,18 @@ const config = {
         defaultMode: 'dark',
       },
       navbar: {
-        title: 'wiki',
+        title: 'Home',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'docs',
+          // },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -82,8 +84,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Home',
+                to: '/',
               },
             ],
           },
