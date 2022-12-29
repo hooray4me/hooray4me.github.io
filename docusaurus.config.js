@@ -71,7 +71,7 @@ const config = {
           //   label: 'docs',
           // },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/JHAEISIS/devops',
             label: 'GitHub',
             position: 'right',
           },
@@ -123,6 +123,10 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+    markdown: {
+      mermaid: true,
+    },
+    themes: ['@docusaurus/theme-mermaid'],
 };
 
 module.exports = config;
